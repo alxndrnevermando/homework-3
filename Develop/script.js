@@ -17,12 +17,16 @@ var randomFunc = {
     symbol: getRandomSymbol
 };
 
+// Generate event listen
+
 generateEl.addEventListener("click", function() {
     var length = parseInt.lengthEl.value;
     hasLower = lowercaseEl.checked;
     hasUpper = uppercaseEl.checked;
     hasNumber = numbersEl.checked;
     hasSymbol = symbolsEl.checked;
+
+    resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
 });
 
 // Functions which generate string
