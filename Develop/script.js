@@ -1,3 +1,14 @@
+//DOM elements
+
+var resultEl = document.getElementById("password");
+var lengthEl = document.getElementById("length");
+var uppercaseEl = document.getElementById("uppercase");
+var lowercaseEl = document.getElementById("lowercase");
+var numbersEl = document.getElementById("numbers");
+var symbolsEl = document.getElementById("symbols");
+var generateEl = document.getElementById("generate");
+
+
 // Places all of the generator functions into an object
 var randomFunc = {
     lower: getRandomLower,
@@ -5,6 +16,7 @@ var randomFunc = {
     number: getRandomNumber,
     symbol: getRandomSymbol
 };
+
 
 // Functions which generate string
 
