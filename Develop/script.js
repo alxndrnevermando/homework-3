@@ -1,3 +1,11 @@
+// Places all of the generator functions into an object
+var randomFunc = {
+    lower: getRandomLower,
+    upper: getRandomUpper,
+    number: getRandomNumber,
+    symbol: getRandomSymbol
+};
+
 // Functions which generate string
 
 function getRandomLower() {
