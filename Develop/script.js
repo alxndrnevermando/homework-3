@@ -17,6 +17,13 @@ var randomFunc = {
     symbol: getRandomSymbol
 };
 
+generateEl.addEventListener("click", function() {
+    var length = parseInt.lengthEl.value;
+    hasLower = lowercaseEl.checked;
+    hasUpper = uppercaseEl.checked;
+    hasNumber = numbersEl.checked;
+    hasSymbol = symbolsEl.checked;
+});
 
 // Functions which generate string
 
