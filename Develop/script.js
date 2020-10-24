@@ -39,9 +39,9 @@ function generatePassword(lower, upper, number, symbol, length) {
 
     let generatedPassword = "";
 
-    var typesCount = hasLower + hasUpper + hasNumber + hasSymbol;
+    var typesCount = lower + upper + number + symbol;
 
-    var typesArr = [{hasLower}, {hasUpper}, {hasNumber}, {hasSymbol}].filter
+    var typesArr = [{lower}, {upper}, {number}, {symbol}].filter
     (
         item => Object.values(item)[0]
     );
@@ -87,8 +87,8 @@ function getRandomNumber() {
 console.log(getRandomNumber());
 
 function getRandomSymbol() {
-    var symbol = "!#$%&()*+,-./:;<=>?@[\]^_`{|}~";
-    return symbol [Math.floor(Math.random() * symbol.length)];
+    var symbols = "!#$%&()*+,-./:;<=>?@[\]^_`{|}~";
+    return symbols [Math.floor(Math.random() * symbols.length)];
 }
 
 console.log(getRandomSymbol());
