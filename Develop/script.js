@@ -17,21 +17,21 @@ function generatePassword() {
   
   
     while(confirmLength <= 7 || confirmLength >= 129) {
-        alert("Password length must be between 8-128 characters. Try again");
+        alert("Password length must be between 8-128 characters. Try again.");
         var confirmLength = (prompt("How many characters would you like your password to contain?"));
         } 
   
-      var confirmSymbols = confirm("Click OK to confirm if you would like to include special characters");
-      var confirmNumbers = confirm("Click OK to confirm if you would like to include numeric characters");    
-      var confirmLower = confirm("Click OK to confirm if you would like to include lowercase characters");
-      var confirmUpper = confirm("Click OK to confirm if you would like to include uppercase characters");
+      var confirmSymbols = confirm("Include symbols?");
+      var confirmNumbers = confirm("Include numbers?");    
+      var confirmLower = confirm("Include lower case letters?");
+      var confirmUpper = confirm("Include upper case letters?");
   
         while(confirmUpper === false && confirmLower === false && confirmSymbols === false && confirmNumbers === false) {
           alert("You must choose at least one parameter");
-          var confirmSymbols = confirm("Click OK to confirm if you would like to include special characters");
-          var confirmNumbers = confirm("Click OK to confirm if you would like to include numeric characters");    
-          var confirmLower = confirm("Click OK to confirm if you would like to include lowercase characters");
-          var confirmUpper = confirm("Click OK to confirm if you would like to include uppercase characters");   
+          var confirmSymbols = confirm("Include symbols?");
+          var confirmNumbers = confirm("Include numbers?");    
+          var confirmLower = confirm("Include lower case letters?");
+          var confirmUpper = confirm("Include upper case letters?");   
       } 
   
         var passwordCharacters = [];
