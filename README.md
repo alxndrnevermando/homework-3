@@ -1,97 +1,33 @@
-# homework-3
+## homework-3
 
-/*
-# 03 JavaScript: Password Generator
+Javascript is really an exercise in frustration. The previous time I studied it, I would get confused by the logic behind how to create what I needed to in the html, so when I encountered the same issue again, I wasn't surprised. I was able to understand the simple aspect behind getting a password to generate, as I can understand the use of math.random function, which we used in our rock paper scissors demo. However, the challenge was making this work for a password value that would be determined by what criteria the user selected. At first, I could get my prompts to work as intended, along with creating an array with the different characters for each criteria (symbols, numbers, etc.), but it was creating the rest of my generate password function that I struggled with. Perusing resources on the web and in my activites, I was able to see many different ways of using conditional statments, and found that while statements could really work with pushing the user throught a series of prompts. I used a great resource in Tiffany Casey's work at https://github.com/TiffanyCasey/Password-Generator.git. I want to make clear that her code is referenced in my work, so that any similarites are due to it helping clear up my difficluties with my generate password function.
 
-## Your Task
+## Motivation
 
-This week’s homework requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+I knew this was going to be tough, so I'm just glad I was able to get an understnding of what the assignment required.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+## Screenshot
 
-## User Story
+<img width="2560" alt="Screen Shot 2020-10-24 at 10 38 21 PM" src="https://user-images.githubusercontent.com/71421032/97099743-aca74880-1649-11eb-8374-709e622798ac.png">
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+## Features
 
-## Acceptance Criteria
+When you hit the generate password button, a series of prompts will ask the user to enter how long they want their passwrod to be, and to include different characters. The resulting password will be displayed in the text area.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![password generator demo](./Assets/03-javascript-homework-demo.png)
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+## Installation
+Pretty simple to deploy this, simply cut and paste the url into you preferred browser. No need to download.
 
 
-## Review
+## Contribute
 
-You are required to submit the following for review:
+If you want to make some contributions, feel free to go the following github pages. Link to my repo: (https://github.com/alxndrnevermando/homework-1.github.io.git)
 
-* The URL of the deployed application.
+## Credits
+Huge shoutout to Tiffany Casey's work at https://github.com/TiffanyCasey/Password-Generator.git for helping me with this assignment.
+I want to thank Akash Nimare's blogpost about writing a good readme for helping with this part of the assignment. Link to her post (https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3). I will credit her for as long as I use this readme.me format.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
-*/
+## License
+
+
+MIT © [alxndrnevermando]
